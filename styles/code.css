@@ -16,6 +16,7 @@
     margin: 0px 200px; 
     margin-top:50px ;
     margin-bottom:0px;
+    
 }
 .banner-title{
     color: #ebe867;
@@ -26,7 +27,9 @@
     padding-top:170px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    
 }
+
 .banner-description{
     color: #8f8de7;
     font-weight: 900;
@@ -35,6 +38,7 @@
     margin-top: 10px;
     line-height: 80px;
     text-transform: capitalize;
+   
 }
 
 /* main section */
@@ -107,8 +111,11 @@
     margin-bottom: 15px;
 }
 .new-year-image{
-    padding-top: 60px;
-    padding-left: 90px;
+    
+    /* max-height: 500px;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center; */
   }
   #join-now{
     font-size: 20px;
@@ -159,4 +166,37 @@
     background-color: black;
     color:white;
     font-style: italic;
+  }
+
+  /* offer comming soon section */
+  .offer-section{
+    display: flex;
+    margin:60px auto;
+    width: 1400px;
+    background-color: #d8c6c6;
+    align-items: center;
+    border-radius: 10px;
+
+  }
+  .offer-section-title{
+    color: #F00;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+  
+  }
+  .offer-section-heading{
+     font-size:60px ;
+     font-weight: 900;
+     margin-bottom: 10px;
+  }
+  .offer-section-description{
+      width: 400px;
+      color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
   }
