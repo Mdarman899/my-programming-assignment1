@@ -13,13 +13,11 @@
     background-repeat: no-repeat;
     margin-left:auto;
     margin-right:auto; 
-    margin: 0px 200px; 
     margin-top:50px ;
     margin-bottom:0px;
-    
 }
 .banner-title{
-    color: #ebe867;
+    color: #ffffff;
     font-weight: 400;
     text-align:center ;
     font-family: Merriweather;
@@ -27,11 +25,10 @@
     padding-top:170px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    
 }
 
 .banner-description{
-    color: #8f8de7;
+    color: #ffffff;
     font-weight: 900;
     text-align: center;
     font-size:92px ;
@@ -110,13 +107,7 @@
     line-height: 30px;
     margin-bottom: 15px;
 }
-.new-year-image{
-    
-    /* max-height: 500px;
-    max-width: 300px;
-    align-items: center;
-    justify-content: center; */
-  }
+
   #join-now{
     font-size: 20px;
     font-weight: 800;
@@ -131,13 +122,18 @@
     background-color: black;
     color:whitesmoke;
     box-shadow: 1px 3px 3px 3px white;
+
+  }
+  .new-year-image{
+    padding-top: 70px;
+    padding-left: 40px;
   }
 
   /* place-date-time  */
   .date-section{
     width: 1400px;
     height: 480px;
-    background-color: #a3a398;
+    background-color: #ebebe8;
     margin-left:auto;
     margin-right:auto; 
     margin-top: -250px;
@@ -162,7 +158,7 @@
     border: none;
     font-family: 'Times New Roman', Times, serif;
     padding:10px;
-    box-shadow:3px 3px 3px 3px white ;
+    box-shadow:3px 3px 3px 3px rgb(165, 167, 149) ;
     background-color: black;
     color:white;
     font-style: italic;
@@ -183,7 +179,7 @@
     font-size: 25px;
     font-weight: 500;
     text-transform: uppercase;
-  
+    padding-top: 60px;
   }
   .offer-section-heading{
      font-size:60px ;
@@ -193,10 +189,204 @@
   .offer-section-description{
       width: 400px;
       color: rgba(7, 2, 17, 0.60);
-
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      padding-bottom: 60px;
   }
+  .offer-section-first-div{
+    padding-left: 100px;
+    padding-right: 40px;
+  }
+  .offer-section-second-div{
+    border: 10px solid #F00;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #FFF;
+  }
+  .offer-section-third-div{
+     padding-left: 50px;
+  }
+  .offer-section-year{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    color:red;
+  }
+
+  /* holiday sale discount section */
+  .holiday-sale-section{
+    text-align: center;
+    width:1400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .holiday-section-title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    color:#5e5c61;
+  }
+  .holiday-section-heading{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: Merriweather;
+    color:black;
+  }
+  .holiday-sale-span{
+    color:red;
+  }
+  .holiday-sale-description{
+    width: 800px;
+    font-size: 20px;
+    margin:0px auto;
+  }
+
+  /* portfolio section */
+  .portfolio-section{
+    width: 1400px;
+    margin:0px auto;
+    
+  }
+.portfolio-title{
+    color:red;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform:uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+.portfolio-heading{
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.portfolio-description{
+  color:#717174;
+  font-size: 20px;
+  width: 700px;
+}
+.image-section{
+  padding-top: 50px;
+}
+.image-section > img {
+  width: 450px;
+  height: 400;
+  padding: 5px 5px;
+}
+
+/* subscribe news letter section */
+.subscribe-section{
+  width: 1400px;
+  height: 450px;
+  background-color:rgb(240, 232, 232) ;
+  margin: 80px auto;
+  text-align: center;
+  padding-top: 100px;
+  border-radius: 15px;
+}
+.subscribe-section-title{
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 15px;
+}
+.subscribe-description{
+  width: 700px;
+  margin:5px auto; 
+  font-size: 20px;
+  color:#7c7171;
+}
+.input{
+  font-size: 15px;
+  color: rgba(7, 2, 17, 0.30);
+  background-color: white;
+  padding: 5px 40px;
+  height: 43px;
+  border: none;
+  margin-right:-5px;
+  font-weight: 400;
+  border-radius: 10px 0px 0px 10px ;
+}
+.subscribe-btn{
+  color:white;
+  padding: 18px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  background-color: red;
+  border:none;
+  border-radius :0px 10px 10px 0px ;
+  cursor: pointer;
+}
+.subscribe-button{
+  margin-top: 20px;
+}
+/* End main section  */
+
+
+/* start footer section  */
+.footer-section{
+  background-color: black;
+  margin-top: 50px;
+  color:white;
+}
+.footer-header-section{
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 50px auto;
+  padding-top: 100px;
+}
+.image-number{
+  display: flex;
+  font-size: 25px;
+  line-height: 10px;
+  padding-right: 100px;
+}
+.header-image-number{
+  padding-left: 10px;
+}
+.image-website{
+  display: flex;
+  font-size: 25px;
+  padding-right: 100px;
+}
+.header-website-name{
+  padding-left: 10px;
+}
+.header-title{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38px;
+  width: 450px;
+}
+
+
+/* footer image section */
+.footer-image-section{
+  text-align: center;
+  word-spacing: 25px;
+  padding:50px;
+}
+
+.footer-end-section{
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  font-size: 16px;
+  padding: 50px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0px auto ;
+}
+.footer-unsubscribe-btn{
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
