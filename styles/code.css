@@ -7,14 +7,13 @@
     text-align: center;
 }
 .banner-container{
-    background-image: url(../images/Banner\ Image.png);
-    height: 1000px;
-    width:1400px;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(../images/Banner\ Image.png);
+    height: 600px;
+    width:1200px;
     background-repeat: no-repeat;
     margin-left:auto;
     margin-right:auto; 
     margin-top:50px ;
-    margin-bottom:0px;
 }
 .banner-title{
     color: #ffffff;
@@ -40,12 +39,13 @@
 
 /* main section */
 
+/* 60% off section */
 .section-heading{
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 88px;
-    margin-top: -280px;
+    margin-top: 50px;
     font-weight: 700;
    margin-bottom: 30px;
 }
@@ -72,17 +72,15 @@
     text-align: center;
     margin-bottom: 50px;
 }
-/* welcome section */
+/* welcome to midnight party section */
 .welcome-section{
-    background-image: url(../images/Vectorrr.png);
-    height: 1000px;
-    width:1400px;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(../images/Vectorrr.png);
+    height: 600px;
+    width:1200px;
     background-repeat: no-repeat;
     margin-left:auto;
     margin-right:auto;
     display: flex;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 .welcome-div{
     padding-top:150px;
@@ -131,13 +129,13 @@
 
   /* place-date-time  */
   .date-section{
-    width: 1400px;
+    width: 1200px;
     height: 480px;
     background-color: #ebebe8;
     margin-left:auto;
     margin-right:auto; 
-    margin-top: -250px;
     border-radius: 10px;
+    margin-top: 100px;
   }
   .place-date-time{
     text-align: center;
@@ -168,7 +166,7 @@
   .offer-section{
     display: flex;
     margin:60px auto;
-    width: 1400px;
+    width: 1200px;
     background-color: #d8c6c6;
     align-items: center;
     border-radius: 10px;
@@ -182,12 +180,12 @@
     padding-top: 60px;
   }
   .offer-section-heading{
-     font-size:60px ;
+     font-size:45px ;
      font-weight: 900;
      margin-bottom: 10px;
   }
   .offer-section-description{
-      width: 400px;
+      width: 350px;
       color: rgba(7, 2, 17, 0.60);
       font-size: 20px;
       font-weight: 400;
@@ -195,17 +193,16 @@
       padding-bottom: 60px;
   }
   .offer-section-first-div{
-    padding-left: 100px;
-    padding-right: 40px;
+    padding-left: 60px;
   }
   .offer-section-second-div{
     border: 10px solid #F00;
-    padding: 15px;
     border-radius: 50%;
     background-color: #FFF;
+    padding: 10px;
   }
   .offer-section-third-div{
-     padding-left: 50px;
+     padding-left: 20px;
   }
   .offer-section-year{
     padding-top: 70px;
@@ -218,7 +215,7 @@
   /* holiday sale discount section */
   .holiday-sale-section{
     text-align: center;
-    width:1400px;
+    width:1200px;
     margin: 0 auto;
     margin-bottom: 50px;
   }
@@ -246,7 +243,7 @@
 
   /* portfolio section */
   .portfolio-section{
-    width: 1400px;
+    width: 1200px;
     margin:0px auto;
     
   }
@@ -272,14 +269,14 @@
   padding-top: 50px;
 }
 .image-section > img {
-  width: 450px;
+  width: 383px;
   height: 400;
-  padding: 5px 5px;
+  padding: 7px 7px;
 }
 
 /* subscribe news letter section */
 .subscribe-section{
-  width: 1400px;
+  width: 1200px;
   height: 450px;
   background-color:rgb(240, 232, 232) ;
   margin: 80px auto;
@@ -329,14 +326,16 @@
 
 /* start footer section  */
 .footer-section{
-  background-color: black;
+  background-color:#070211;
   margin-top: 50px;
   color:white;
+  width: 1600px;
+  margin: 0px auto;
 }
 .footer-header-section{
   display: flex;
   justify-content: space-between;
-  width: 1400px;
+  width: 1200px;
   margin: 50px auto;
   padding-top: 100px;
 }
@@ -375,7 +374,7 @@
 .footer-end-section{
   display: flex;
   justify-content: space-between;
-  width: 1400px;
+  width: 1200px;
   font-size: 16px;
   padding: 50px;
   font-weight: 500;
